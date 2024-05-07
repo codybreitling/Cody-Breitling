@@ -1,0 +1,94 @@
+:root {
+  --gradient: linear-gradient(
+    135deg,
+    #1eadd1,
+    #1eadd1,
+    #0dda8b,
+    #0dda8b,
+    #1eadd1,
+    #1eadd1
+  );
+}
+
+.html {
+  background-image: var(--gradient);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background: white;
+  width: 500px;
+  height: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: navy;
+}
+
+#data label {
+  width: 10em;
+  float: left;
+  padding-right: 1em;
+  padding-left: 20px;
+  font-weight: bold;
+  color: #1eadd1;
+}
+
+#data input {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  margin-bottom: 0.5em;
+}
+
+#data select {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  margin-bottom: 0.5em;
+}
+
+.button {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-bottom: 75px; */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+#membershipData p {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #1eadd1;
+}
+
+#membershipData label {
+  color: #1eadd1;
+}
+
+#membershipData input {
+  margin-left: 40px;
+}
